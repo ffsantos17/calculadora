@@ -20053,13 +20053,13 @@ if(a===0)return 1
 for(s=1,r=1;r<=a;++r)s*=r
 return s},
 anT(a){var s,r
-for(s=0,r=0;r<30;++r)s+=Math.pow(a,r)/A.a6o(r)
+for(s=0,r=0;r<100;++r)s+=Math.pow(a,r)/A.a6o(r)
 return s},
 aoI(a){var s,r,q
-for(s=0,r=0;r<15;++r){q=2*r+1
+for(s=0,r=0;r<100;++r){q=2*r+1
 s+=Math.pow(-1,r)*Math.pow(a,q)/A.a6o(q)}return s},
 anE(a){var s,r,q
-for(s=0,r=0;r<15;++r){q=2*r
+for(s=0,r=0;r<100;++r){q=2*r
 s+=Math.pow(-1,r)*Math.pow(a,q)/A.a6o(q)}return s},
 acW(a){var s,r
 for(s=0,r=1;r<=100;++r)s+=Math.pow(-1,r-1)*Math.pow(a,r)/r
